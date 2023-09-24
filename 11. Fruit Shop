@@ -1,0 +1,80 @@
+function demo(input){
+    let fruit = input[0];
+    let day = input[1];
+    let num = Number(input[2]);
+    switch(fruit){
+        case"banana":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 2.5).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 2.7).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"apple":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 1.2).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 1.25).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"orange":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 0.85).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 0.9).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"grapefruit":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 1.45).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 1.6).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"kiwi":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 2.7).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 3).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"pineapple":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 5.5).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 5.6).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        case"grapes":
+        if(day == "Monday" || day == "Tuesday" || day == "Wednesday" 
+        || day == "Thursday" || day == "Friday"){
+            console.log((num * 3.85).toFixed(2));
+        }
+        else if(day == "Saturday" || day == "Sunday"){
+            console.log((num * 4.2).toFixed(2));
+        }
+        else{console.log("error");}
+        break;
+        default:
+            console.log("error");
+        break;
+    }
+}
